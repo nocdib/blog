@@ -1,0 +1,5 @@
+baseurl = "http://www.nocdib.com/blog/"
+languageCode = "en-us"
+title = "Bits, Rhymes and Life"
+theme = "hyde"
+disqusShortname = "nocdib"

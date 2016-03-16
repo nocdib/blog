@@ -1,0 +1,27 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <!-- <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a> -->
+      <a href="{{ .Site.BaseURL }}"><h1>Bits,<br>
+        Rhymes<br>
+        and Life
+      </h1></a>
+
+      <p class="lead">
+      {{ with .Site.Params.description }} {{.}} {{ else }}Mostly tech, some music, all me.{{end}}
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Posts</a> </li>
+      <li><a href="http://www.nocdib.com">Home</a> </li>
+<!--
+      {{ range .Site.Menus.main }}
+        <li><a href="{{.URL}}"> {{ .Name }} </a></li>
+      {{end}}
+    </ul>
+-->
+    <p class="footnote">Powered by <a href="http://gohugo.io/">Hugo</a><br>{{ with .Site.Params.copyright }}{{.}}{{ else }} {{.Now.Format "Monday, January 02, 2006"}} {{end}}</p>
+    <!-- <p class="footnote">powered by <a href="http://gohugo.io/">Hugo</a><br>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{.Now.Format "Monday, January 1, 2006"}}. All rights reserved. {{end}}</p> -->
+  </div>
+</div>
