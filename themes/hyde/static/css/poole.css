@@ -49,7 +49,7 @@ body {
 
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 8px;
   line-height: 1.5;
 }
 @media (min-width: 38rem) {
@@ -307,7 +307,7 @@ tbody tr:nth-child(odd) th {
  */
 
  .posts {
-   font-size: 16px;
+   font-size: 12px;
    /*list-style-image: url('cross.png');*/
  }
 
