@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Squid on Bits, Rhymes and Life</title>
+    <link>http://www.nocdib.com/blog/tags/squid/</link>
+    <description>Recent content in Squid on Bits, Rhymes and Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Aug 2015 09:17:32 -0400</lastBuildDate>
+    <atom:link href="http://www.nocdib.com/blog/tags/squid/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Setting Up A Squid Proxy Using Digital Ocean</title>
+      <link>http://www.nocdib.com/blog/Setting-up-a-Squid-proxy-using-Digital-Ocean/</link>
+      <pubDate>Sun, 09 Aug 2015 09:17:32 -0400</pubDate>
+      
+      <guid>http://www.nocdib.com/blog/Setting-up-a-Squid-proxy-using-Digital-Ocean/</guid>
+      <description>&lt;p&gt;With all of the challenges that come with being an American living overseas who has the patience to deal with sites like Google and Wikipedia automatically defaulting to their local versions? Not me. But seriously, I do find it annoying when websites default to their Swedish language versions. I’d also like to be able to watch geographically-specific content such as local American news, Netflix and streaming premium cable programs which aren’t accessible to Internet traffic outside of the United States. I tried using a subscription-based public VPN service but experienced significant lagging while streaming Netflix so I decided that a personal proxy was would be the best option.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.digitalocean.com/&#34; target=&#34;_blank&#34;&gt;Digital Ocean&lt;/a&gt; is a cloud-based hosting services that allows customer to create low-cost, high-performing virtual private servers (VPS) in under a minute. These servers (called droplets) can then be accessed via SSH from any terminal and operate no differently than any local instance of Linux or FreeBSD. Routing my Internet traffic through a U.S.-based server would allow me to use the Internet as if I was in the United States without physically being there. Squid is a proxy server for routing Internet traffic and that is exactly what I need. There are several tutorials on how to configure Squid in various manners but many are for previous versions and not the current version, 3, so I thought I’d share how I got it to work.&lt;/p&gt;
+
+&lt;p&gt;After I created a new droplet based in New York running Ubuntu 14.04 64-bit I installed Squid. All of my set up was done using the root user so I never needed to use the “sudo” command but I’ll include it for those who are not using root.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;nohighlight&#34;&gt;
+sudo apt-get install squid
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After the installation verify that Squid is running.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;nohighlight&#34;&gt;
+initctl list | grep squid3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You should get a response like this (but with a different process id):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;nohighlight&#34;&gt;
+squid3 start/running, process 3481
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you don’t see it then manually start Squid and check for the running process again:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;nohighlight&#34;&gt;
+sudo start squid3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now when you verify that Squid is running you should see that it is and the process id associated with it.&lt;/p&gt;
+
+&lt;p&gt;A crucial step in securing the proxy is requiring authentication, a username and password, to access it. I learned this the hard way a few years ago when I set up a proxy without securing it and it was hijacked by spammers to send mass emails in less than 48 hours. First, run the following command to get the necessary package:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;nohighlight&#34;&gt;
+apt-get install apache2-utils
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Create a password file. It’s easiest to create it in same folder as the configuration file. Replace [username] with whatever name you desire.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;nohighlight&#34;&gt;
+htpasswd -c /etc/squid3/passwd [username]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When prompted to, enter your desired password. Then run this command to find the path to the authentication program. Copy this path because you will need it in the next step. You may get more than one result but select the path to an application and not any other type of file.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;nohighlight&#34;&gt;
+dpkg -L squid3 | grep ncsa_auth
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Open the configuration file &lt;b&gt;/etc/squid3/squid.conf&lt;/b&gt; and add the following near the top of the file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;nohighlight&#34;&gt;
+auth_param basic program [path from previous step] /etc/squid3/passwd
+auth_param basic children 5
+auth_param basic realm [title for the login window]
+auth_param basic credentialsttl 2 hours
+auth_param basic casesensitive off
+acl ncsa_users proxy_auth REQUIRED
+http_access allow ncsa_users
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In a nutshell, those lines tell Squid where to find the valid username/password list and that both values are case-insensitve. Then create a user group where authentication is required and only allow users in that group to access the proxy.&lt;/p&gt;
+
+&lt;p&gt;Somewhere in the file should be a line that looks like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;nohighlight&#34;&gt;
+http_port [port_number]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Usually the port number is 3128. You can change this value if you desire but remember it since you will be referencing it.&lt;/p&gt;
+
+&lt;p&gt;These next configuration options are optional so you can use whatever you desire and skip the steps you do not need since your configuration desires may be different than mine.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;**** START OPTIONAL SECTION ****&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;What I needed from my proxy was for it not to cache, not to show my computer’s IP as the true origin and for all traffic to go through the proxy and not directly to me. The following lines do those things, respectively, and are at the end of the file.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;nohighlight&#34;&gt;
+cache deny all
+request_header_access Allow allow all
+request_header_access Authorization allow all
+request_header_access WWW-Authenticate allow all
+request_header_access Proxy-Authorization allow all
+request_header_access Proxy-Authenticate allow all
+request_header_access Cache-Control allow all
+request_header_access Content-Encoding allow all
+request_header_access Content-Length allow all
+request_header_access Content-Type allow all
+request_header_access Date allow all
+request_header_access Expires allow all
+request_header_access Host allow all
+request_header_access If-Modified-Since allow all
+request_header_access Last-Modified allow all
+request_header_access Location allow all
+request_header_access Pragma allow all
+request_header_access Accept allow all
+request_header_access Accept-Charset allow all
+request_header_access Accept-Encoding allow all
+request_header_access Accept-Language allow all
+request_header_access Content-Language allow all
+request_header_access Mime-Version allow all
+request_header_access Retry-After allow all
+request_header_access Title allow all
+request_header_access Connection allow all
+request_header_access Cookie allow all
+request_header_access Proxy-Connection allow all
+request_header_access User-Agent allow all
+request_header_access All deny all
+forwarded_for off
+always_direct deny all
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;b&gt;**** END OPTIONAL SECTION ****&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;With all of the options in place you can test that your proxy works. Save the configuration file and apply the changes to Squid with this command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;nohighlight&#34;&gt;
+squid3 -k reconfigure
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Change the proxy settings in your browser so that all connections are routed through the public IP of your droplet using the port number that you specified in the configuration file. Everything should work as expected. If you have any questions/issues then feel free to reach me in the comments.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
