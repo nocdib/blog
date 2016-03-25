@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech on Bits, Rhymes and Life</title>
-    <link>http://www.nocdib.com/blog/categories/tech/</link>
+    <link>http://blog.nocdib.com/categories/tech/</link>
     <description>Recent content in Tech on Bits, Rhymes and Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 29 Feb 2016 20:07:14 -0400</lastBuildDate>
-    <atom:link href="http://www.nocdib.com/blog/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.nocdib.com/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A Journey Of A Thousand Miles Begins With A Leap</title>
-      <link>http://www.nocdib.com/blog/A-journey-of-a-thousand-miles-begins-with-a-leap/</link>
+      <link>http://blog.nocdib.com/A-journey-of-a-thousand-miles-begins-with-a-leap/</link>
       <pubDate>Mon, 29 Feb 2016 20:07:14 -0400</pubDate>
       
-      <guid>http://www.nocdib.com/blog/A-journey-of-a-thousand-miles-begins-with-a-leap/</guid>
+      <guid>http://blog.nocdib.com/A-journey-of-a-thousand-miles-begins-with-a-leap/</guid>
       <description>&lt;p&gt;It’s been a long time coming (about 6 years) but I’ve finally settled on an idea for a mobile development project to invest my time into. Two years of that time was spent selecting an idea that wasn’t already at least partially implemented, another two years was spent getting acclimated with the tech scene well enough to know which direction to go with it and another two years was was spent dealing with life in general along with general laziness. I&amp;rsquo;ve been gainfully employed for the entire time so it&amp;rsquo;s not as though this project was something that I thought about daily. Now is just the time that I decided to double-down and actually get serious about building something tangible. I have high hopes for my idea so I figured that I will chronicle my progress. If nobody ever reads this it will still be my personal record of the steps I made towards accomplishing something that I&amp;rsquo;ve been dreaming about.&lt;/p&gt;
 
 &lt;p&gt;All posts related to this project will be prefaced with &amp;ldquo;YB.&amp;rdquo; I don&amp;rsquo;t want to mention specifics about what the app will do but I will say that it is mobile-first, socially-based and has heavy emphasis on geolocation. I will be developing the full stack on my own using technologies that I am learning along the way. Hopefully this will become the resource that I wish I found back in the Summer of 2009 to help me get started. If I could minimize the time needed for someone to undertake their own project then I’d be more than satisfied. While I don’t believe in numerology, astrology or any other form of time/numeric-based omens I can’t help but think that today being &lt;a href=&#34;https://en.wikipedia.org/wiki/Leap_year#Leap_day&#34;&gt;Leap Day&lt;/a&gt; is psuedo-symbolic since I’m going forward to embark on this personal quest. Well, here goes nothing.&lt;/p&gt;
@@ -23,10 +23,10 @@
     
     <item>
       <title>Setting Up A Squid Proxy Using Digital Ocean</title>
-      <link>http://www.nocdib.com/blog/Setting-up-a-Squid-proxy-using-Digital-Ocean/</link>
+      <link>http://blog.nocdib.com/Setting-up-a-Squid-proxy-using-Digital-Ocean/</link>
       <pubDate>Sun, 09 Aug 2015 09:17:32 -0400</pubDate>
       
-      <guid>http://www.nocdib.com/blog/Setting-up-a-Squid-proxy-using-Digital-Ocean/</guid>
+      <guid>http://blog.nocdib.com/Setting-up-a-Squid-proxy-using-Digital-Ocean/</guid>
       <description>&lt;p&gt;With all of the challenges that come with being an American living overseas who has the patience to deal with sites like Google and Wikipedia automatically defaulting to their local versions? Not me. But seriously, I do find it annoying when websites default to their Swedish language versions. I’d also like to be able to watch geographically-specific content such as local American news, Netflix and streaming premium cable programs which aren’t accessible to Internet traffic outside of the United States. I tried using a subscription-based public VPN service but experienced significant lagging while streaming Netflix so I decided that a personal proxy was would be the best option.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.digitalocean.com/&#34; target=&#34;_blank&#34;&gt;Digital Ocean&lt;/a&gt; is a cloud-based hosting services that allows customer to create low-cost, high-performing virtual private servers (VPS) in under a minute. These servers (called droplets) can then be accessed via SSH from any terminal and operate no differently than any local instance of Linux or FreeBSD. Routing my Internet traffic through a U.S.-based server would allow me to use the Internet as if I was in the United States without physically being there. Squid is a proxy server for routing Internet traffic and that is exactly what I need. There are several tutorials on how to configure Squid in various manners but many are for previous versions and not the current version, 3, so I thought I’d share how I got it to work.&lt;/p&gt;

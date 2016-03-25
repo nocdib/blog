@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Digital Ocean on Bits, Rhymes and Life</title>
-    <link>http://www.nocdib.com/blog/tags/digital-ocean/</link>
+    <link>http://blog.nocdib.com/tags/digital-ocean/</link>
     <description>Recent content in Digital Ocean on Bits, Rhymes and Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Aug 2015 09:17:32 -0400</lastBuildDate>
-    <atom:link href="http://www.nocdib.com/blog/tags/digital-ocean/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.nocdib.com/tags/digital-ocean/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Setting Up A Squid Proxy Using Digital Ocean</title>
-      <link>http://www.nocdib.com/blog/Setting-up-a-Squid-proxy-using-Digital-Ocean/</link>
+      <link>http://blog.nocdib.com/Setting-up-a-Squid-proxy-using-Digital-Ocean/</link>
       <pubDate>Sun, 09 Aug 2015 09:17:32 -0400</pubDate>
       
-      <guid>http://www.nocdib.com/blog/Setting-up-a-Squid-proxy-using-Digital-Ocean/</guid>
+      <guid>http://blog.nocdib.com/Setting-up-a-Squid-proxy-using-Digital-Ocean/</guid>
       <description>&lt;p&gt;With all of the challenges that come with being an American living overseas who has the patience to deal with sites like Google and Wikipedia automatically defaulting to their local versions? Not me. But seriously, I do find it annoying when websites default to their Swedish language versions. I’d also like to be able to watch geographically-specific content such as local American news, Netflix and streaming premium cable programs which aren’t accessible to Internet traffic outside of the United States. I tried using a subscription-based public VPN service but experienced significant lagging while streaming Netflix so I decided that a personal proxy was would be the best option.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.digitalocean.com/&#34; target=&#34;_blank&#34;&gt;Digital Ocean&lt;/a&gt; is a cloud-based hosting services that allows customer to create low-cost, high-performing virtual private servers (VPS) in under a minute. These servers (called droplets) can then be accessed via SSH from any terminal and operate no differently than any local instance of Linux or FreeBSD. Routing my Internet traffic through a U.S.-based server would allow me to use the Internet as if I was in the United States without physically being there. Squid is a proxy server for routing Internet traffic and that is exactly what I need. There are several tutorials on how to configure Squid in various manners but many are for previous versions and not the current version, 3, so I thought I’d share how I got it to work.&lt;/p&gt;

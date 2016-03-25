@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yb on Bits, Rhymes and Life</title>
-    <link>http://www.nocdib.com/blog/tags/yb/</link>
+    <link>http://blog.nocdib.com/tags/yb/</link>
     <description>Recent content in Yb on Bits, Rhymes and Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 29 Feb 2016 20:07:14 -0400</lastBuildDate>
-    <atom:link href="http://www.nocdib.com/blog/tags/yb/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.nocdib.com/tags/yb/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A Journey Of A Thousand Miles Begins With A Leap</title>
-      <link>http://www.nocdib.com/blog/A-journey-of-a-thousand-miles-begins-with-a-leap/</link>
+      <link>http://blog.nocdib.com/A-journey-of-a-thousand-miles-begins-with-a-leap/</link>
       <pubDate>Mon, 29 Feb 2016 20:07:14 -0400</pubDate>
       
-      <guid>http://www.nocdib.com/blog/A-journey-of-a-thousand-miles-begins-with-a-leap/</guid>
+      <guid>http://blog.nocdib.com/A-journey-of-a-thousand-miles-begins-with-a-leap/</guid>
       <description>&lt;p&gt;It’s been a long time coming (about 6 years) but I’ve finally settled on an idea for a mobile development project to invest my time into. Two years of that time was spent selecting an idea that wasn’t already at least partially implemented, another two years was spent getting acclimated with the tech scene well enough to know which direction to go with it and another two years was was spent dealing with life in general along with general laziness. I&amp;rsquo;ve been gainfully employed for the entire time so it&amp;rsquo;s not as though this project was something that I thought about daily. Now is just the time that I decided to double-down and actually get serious about building something tangible. I have high hopes for my idea so I figured that I will chronicle my progress. If nobody ever reads this it will still be my personal record of the steps I made towards accomplishing something that I&amp;rsquo;ve been dreaming about.&lt;/p&gt;
 
 &lt;p&gt;All posts related to this project will be prefaced with &amp;ldquo;YB.&amp;rdquo; I don&amp;rsquo;t want to mention specifics about what the app will do but I will say that it is mobile-first, socially-based and has heavy emphasis on geolocation. I will be developing the full stack on my own using technologies that I am learning along the way. Hopefully this will become the resource that I wish I found back in the Summer of 2009 to help me get started. If I could minimize the time needed for someone to undertake their own project then I’d be more than satisfied. While I don’t believe in numerology, astrology or any other form of time/numeric-based omens I can’t help but think that today being &lt;a href=&#34;https://en.wikipedia.org/wiki/Leap_year#Leap_day&#34;&gt;Leap Day&lt;/a&gt; is psuedo-symbolic since I’m going forward to embark on this personal quest. Well, here goes nothing.&lt;/p&gt;
