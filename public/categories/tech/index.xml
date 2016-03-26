@@ -6,8 +6,26 @@
     <description>Recent content in Tech on Bits, Rhymes and Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Feb 2016 20:07:14 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 25 Mar 2016 13:21:51 -0400</lastBuildDate>
     <atom:link href="http://blog.nocdib.com/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Best Golang Tutorial Around</title>
+      <link>http://blog.nocdib.com/The-best-golang-tutorial-around/</link>
+      <pubDate>Fri, 25 Mar 2016 13:21:51 -0400</pubDate>
+      
+      <guid>http://blog.nocdib.com/The-best-golang-tutorial-around/</guid>
+      <description>&lt;p&gt;&lt;i&gt;TL;DR: Read &lt;a href=&#34;http://www.golangbootcamp.com/book&#34; target=&#34;_new&#34;&gt;this tutorial&lt;/a&gt; and watch &lt;a href=&#34;https://www.udemy.com/learn-how-to-code/learn/v4/content&#34; target=&#34;_new&#34;&gt;these videos&lt;/a&gt;.&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;Golang, also known as Go, has been gaining traction in recent years as a mainstream programming language, particularly in the space of web services. At a time when dynamically-typed, interpreted languages like Python and Ruby are dominating that arena while the frameworks that are built with them are handling front-end content or REST API calls I found it interesting that a statically-typed, compiled language had a growing buzz around it. Back in Spring 2012, after I had just ended a job that made heavy use of Erlang I remember my cousin&amp;rsquo;s husband mentioning his interest in learning Go. Having just dealt with a niche language like Erlang&amp;ndash;which I found to be unpleasant&amp;ndash;I wasn&amp;rsquo;t interested in even hearing about another programming language that hadn&amp;rsquo;t been widely adopted.&lt;/p&gt;
+
+&lt;p&gt;In the middle of 2014 &lt;a href=&#34;http://nickmanning.net/&#34; target=&#34;_new&#34;&gt;Nick Manning&lt;/a&gt; started the &lt;a href=&#34;http://www.meetup.com/nycgolang/&#34; target=&#34;_new&#34;&gt;Golang NYC meetup group&lt;/a&gt; and I began attending since I already knew him from the &lt;a href=&#34;http://www.meetup.com/nycneo4j/&#34; target=&#34;_new&#34;&gt;NYC Neo4j meetup group&lt;/a&gt;. Hearing the testimonials of Go converts piqued my interest but one meeting in particular made me want to try the language for myself. &lt;a href=&#34;http://www.bjornroche.com/&#34; target=&#34;_new&#34;&gt;Bjorn Roche&lt;/a&gt; gave a presentation about using the &lt;a href=&#34;https://revel.github.io/&#34; target=&#34;_new&#34;&gt;Revel web framework&lt;/a&gt; to power the backend of the mobile app &lt;a href=&#34;https://www.shimmeo.com/&#34; target=&#34;_new&#34;&gt;Shimmeo&lt;/a&gt;. During the presentation he compared Revel to the Java/Scala web framework &lt;a href=&#34;http://www.playframework.com&#34; target=&#34;_new&#34;&gt;Play&lt;/a&gt;. I had a strong interest in Play and was about to use it on my own personal project but after hearing that there was a Go equivalent I was convinced to give Go and Revel a try. Nothing helps you learn a new language better than actually implementing something with it.&lt;/p&gt;
+
+&lt;p&gt;My first step was to learn Go. I&amp;rsquo;m pretty particular with my learning materials and I&amp;rsquo;m just not the type who becomes proficient from online documentation and web searches alone. Finding the right introductory material wasn&amp;rsquo;t easy since there was a dearth of tutorials and well-written, published books on Go. I had found one e-book, whose name I will not mention, but I found its explanation and the progression of material to be deficient. By chance I had stumbled upon one of &lt;a href=&#34;https://www.youtube.com/user/toddmcleod&#34; target=&#34;_new&#34;&gt;Todd Mcleod&amp;rsquo;s&lt;/a&gt; YouTube videos and left a comment. He quickly responded and suggested that I take a look at a new Golang video course that he recently published on &lt;a href=&#34;https://www.udemy.com/learn-how-to-code/learn/v4/content&#34; target=&#34;_new&#34;&gt;Udemy&lt;/a&gt;. I bought access to the videos for a nominal fee and it was the best investment in programming-related material that I have ever made. Simply put, if you have prior computer programming experience there is no way that you couldn&amp;rsquo;t become proficient with Go by the end of the course. While doing the course I had also come across Matt Aimonetti&amp;rsquo;s e-book &lt;a href=&#34;http://www.golangbootcamp.com/book&#34; target=&#34;_new&#34;&gt;Go Bootcamp&lt;/a&gt; and noticed that Todd McLeod&amp;rsquo;s course actually elaborated on many of those examples.&lt;/p&gt;
+
+&lt;p&gt;If you are interested in learning Go and are looking for a tutorial that blends brevity with comprehensiveness then I suggest reading &lt;a href=&#34;http://www.golangbootcamp.com/book&#34; target=&#34;_new&#34;&gt;Go Bootcamp&lt;/a&gt;. If you need greater depth then look at &lt;a href=&#34;https://www.udemy.com/learn-how-to-code/learn/v4/content&#34; target=&#34;_new&#34;&gt;Todd&amp;rsquo;s video course on Udemy&lt;/a&gt;. After tackling the language with these resources I actually found it better to create my own REST API without using a framework. Go is a powerful language that allows you to do just that without a lot of overhead.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A Journey Of A Thousand Miles Begins With A Leap</title>
