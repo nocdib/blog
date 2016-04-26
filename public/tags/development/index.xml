@@ -6,8 +6,24 @@
     <description>Recent content in Development on Bits, Rhymes and Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Apr 2016 13:32:10 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 25 Apr 2016 06:13:52 -0400</lastBuildDate>
     <atom:link href="http://blog.nocdib.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>If You Use Vagrant Then You Should Give Otto a Try</title>
+      <link>http://blog.nocdib.com/If-you-use-Vagrant-then-you-should-be-using-Otto/</link>
+      <pubDate>Mon, 25 Apr 2016 06:13:52 -0400</pubDate>
+      
+      <guid>http://blog.nocdib.com/If-you-use-Vagrant-then-you-should-be-using-Otto/</guid>
+      <description>&lt;p&gt;I was first introduced to &lt;a href=&#34;https://www.vagrantup.com/&#34;&gt;Vagrant&lt;/a&gt; while working on a backend development project last year. If you aren&amp;rsquo;t familiar with Vagrant it&amp;rsquo;s basically a configuration wrapper around your preferred virtual machine software that permits you to customize the setup of a VM using a text file called Vagrantfile along with any desired  provisioning files (Chef, Salt, Ansible). Since the configuration is managed with text files it&amp;rsquo;s easy to make changes without manually removing and installing software on the VM and the settings are easily shareable among different users using version control. The alternatives would be to either manually configure a VM and distribute the large image file or to develop the application on individual workstations. With the latter you are bound to encounter the issue of inconsistent behavior due to variances in machine setups among the team. Vagrant is  mature and has been widely adopted by the tech industry, so much so that it spawned &lt;a href=&#34;http://www.hashicorp.com&#34;&gt;a company&lt;/a&gt; that focuses on open source and commercial dev ops software offerings. I&amp;rsquo;m not sure whether it was deliberate or consequential but each of the products after Vagrant were interoperable and formed a suite of distributed systems management solutions. In a clever and resourceful move, Hashicorp combined the VM management of Vagrant with some of their other offerings into a single solution that not only allows you to develop your standalone applications but also to deploy them to the cloud without ever needing to leave your command-line. This all-in-one solution is called &lt;a href=&#34;https://www.hashicorp.com/blog/otto.html&#34;&gt;Otto.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Otto&amp;rsquo;s level of automation is steps beyond what even Vagrant does to the point where it can detect the file types of an existing project and automatically configure a development environment for it. For example, run the &amp;ldquo;otto compile&amp;rdquo; command in a folder with Golang .go source files and you get an environment that already has a Gopath configured to the directory  the command was run from. For building workstation environments Otto leverages Vagrant under the hood. If you only need it for local development then you can use it for just that. Want to deploy your project to Amazon Web Services? Otto will automatically download &lt;a href=&#34;http://www.packer.io/&#34;&gt;Packer&lt;/a&gt; to build your desired image and then use &lt;a href=&#34;http://www.terraform.io&#34;&gt;Terraform&lt;/a&gt; to deploy it without you having to touch the AWS console.&lt;/p&gt;
+
+&lt;p&gt;Otto is in the early zero-point version stages so it&amp;rsquo;s probably a good idea to give it some more time before implementing it in a mission-critical production setting. If you are on a small team that can afford to audit new technology then Otto is well worth it. For my personal project use it&amp;rsquo;s more than sufficient so I&amp;rsquo;ve decided to stick with it instead of standalone Vagrant because it&amp;rsquo;s bound to be the full successor by the time it&amp;rsquo;s production certified.&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;&lt;b&gt;&lt;strong&gt;NOTE:&lt;/strong&gt;&lt;/b&gt; This is an honest and unbiased assessment. I am in no way affiliated with Hashicorp or its employees. I did meet &lt;a href=&#34;http://twitter.com/mitchellh&#34;&gt;Mitchell Hashimoto&lt;/a&gt; once, though.&lt;/i&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Learning How To Learn Part 1: Choosing The Proper Resources</title>

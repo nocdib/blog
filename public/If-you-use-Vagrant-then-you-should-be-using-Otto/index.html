@@ -1,0 +1,102 @@
+	<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.15" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title> If You Use Vagrant Then You Should Give Otto a Try &middot; Bits, Rhymes and Life </title>
+
+  
+  <link rel="stylesheet" href="http://blog.nocdib.com/css/poole.css">
+  <link rel="stylesheet" href="http://blog.nocdib.com/css/syntax.css">
+  <link rel="stylesheet" href="http://blog.nocdib.com/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Bits, Rhymes and Life" />
+
+  
+  <link rel="stylesheet" href="https://yandex.st/highlightjs/8.0/styles/default.min.css">
+  <script src="https://yandex.st/highlightjs/8.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+  
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+  <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ['Raleway']
+      }
+    });
+  </script>
+
+</head>
+
+	<body class="">
+		<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      
+      <a href="http://blog.nocdib.com/"><h1>Bits,<br>
+        Rhymes<br>
+        and Life
+      </h1></a>
+
+      <p class="lead">
+      Mostly tech, some music, all me.
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Posts</a> </li>
+      <li><a href="http://www.nocdib.com">Home</a> </li>
+
+    <p class="footnote">Powered by <a href="http://gohugo.io/">Hugo</a><br> Tuesday, April 26, 2016 </p>
+    
+  </div>
+</div>
+
+
+		<div class="content container">
+			<div class="post">
+			 	<h1>If You Use Vagrant Then You Should Give Otto a Try</h1>
+			  <span class="post-date">Mon, Apr 25, 2016</span>
+			      <p>I was first introduced to <a href="https://www.vagrantup.com/">Vagrant</a> while working on a backend development project last year. If you aren&rsquo;t familiar with Vagrant it&rsquo;s basically a configuration wrapper around your preferred virtual machine software that permits you to customize the setup of a VM using a text file called Vagrantfile along with any desired  provisioning files (Chef, Salt, Ansible). Since the configuration is managed with text files it&rsquo;s easy to make changes without manually removing and installing software on the VM and the settings are easily shareable among different users using version control. The alternatives would be to either manually configure a VM and distribute the large image file or to develop the application on individual workstations. With the latter you are bound to encounter the issue of inconsistent behavior due to variances in machine setups among the team. Vagrant is  mature and has been widely adopted by the tech industry, so much so that it spawned <a href="http://www.hashicorp.com">a company</a> that focuses on open source and commercial dev ops software offerings. I&rsquo;m not sure whether it was deliberate or consequential but each of the products after Vagrant were interoperable and formed a suite of distributed systems management solutions. In a clever and resourceful move, Hashicorp combined the VM management of Vagrant with some of their other offerings into a single solution that not only allows you to develop your standalone applications but also to deploy them to the cloud without ever needing to leave your command-line. This all-in-one solution is called <a href="https://www.hashicorp.com/blog/otto.html">Otto.</a></p>
+
+<p>Otto&rsquo;s level of automation is steps beyond what even Vagrant does to the point where it can detect the file types of an existing project and automatically configure a development environment for it. For example, run the &ldquo;otto compile&rdquo; command in a folder with Golang .go source files and you get an environment that already has a Gopath configured to the directory  the command was run from. For building workstation environments Otto leverages Vagrant under the hood. If you only need it for local development then you can use it for just that. Want to deploy your project to Amazon Web Services? Otto will automatically download <a href="http://www.packer.io/">Packer</a> to build your desired image and then use <a href="http://www.terraform.io">Terraform</a> to deploy it without you having to touch the AWS console.</p>
+
+<p>Otto is in the early zero-point version stages so it&rsquo;s probably a good idea to give it some more time before implementing it in a mission-critical production setting. If you are on a small team that can afford to audit new technology then Otto is well worth it. For my personal project use it&rsquo;s more than sufficient so I&rsquo;ve decided to stick with it instead of standalone Vagrant because it&rsquo;s bound to be the full successor by the time it&rsquo;s production certified.</p>
+
+<p><i><b><strong>NOTE:</strong></b> This is an honest and unbiased assessment. I am in no way affiliated with Hashicorp or its employees. I did meet <a href="http://twitter.com/mitchellh">Mitchell Hashimoto</a> once, though.</i></p>
+
+			</div>
+
+			<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'nocdib';
+    var disqus_identifier = 'http:\/\/blog.nocdib.com\/If-you-use-Vagrant-then-you-should-be-using-Otto\/';
+    var disqus_title = 'If You Use Vagrant Then You Should Give Otto a Try';
+    var disqus_url = 'http:\/\/blog.nocdib.com\/If-you-use-Vagrant-then-you-should-be-using-Otto\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+			
+		</div>
+
+  </body>
+</html>
