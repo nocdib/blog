@@ -1,7 +1,7 @@
 +++
-Categories = ["Development"]
+Categories = ["Tech"]
 Description = ""
-Tags = ["Development", "tech"]
+Tags = ["Development"]
 date = "2016-04-25T06:13:52-04:00"
 menu = "main"
 title = "If You Use Vagrant Then You Should Give Otto a Try"

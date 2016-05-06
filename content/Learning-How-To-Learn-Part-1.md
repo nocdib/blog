@@ -1,7 +1,7 @@
 +++
-Categories = ["Development", "Life"]
+Categories = ["Tech", "Life"]
 Description = ""
-Tags = ["Development", "life"]
+Tags = ["Learning","Self-Improvement"]
 date = "2016-04-11T13:32:10-04:00"
 menu = "main"
 title = "Learning How To Learn Part 1: Choosing The Proper Resources"

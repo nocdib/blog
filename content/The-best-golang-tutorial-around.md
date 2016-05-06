@@ -1,7 +1,7 @@
 +++
-Categories = ["tech"]
+Categories = ["Tech"]
 Description = ""
-Tags = ["Development", "golang"]
+Tags = ["Development", "Golang"]
 date = "2016-03-25T13:21:51-04:00"
 menu = "main"
 title = "The Best Golang Tutorial Around"
@@ -16,4 +16,4 @@ In the middle of 2014 <a href="http://nickmanning.net/" target="_new">Nick Manni
 
 My first step was to learn Go. I'm pretty particular with my learning materials and I'm just not the type who becomes proficient from online documentation and web searches alone. Finding the right introductory material wasn't easy since there was a dearth of tutorials and well-written, published books on Go. I had found one e-book, whose name I will not mention, but I found its explanation and the progression of material to be deficient. By chance I had stumbled upon one of <a href="https://www.youtube.com/user/toddmcleod" target="_new">Todd Mcleod's</a> YouTube videos and left a comment. He quickly responded and suggested that I take a look at a new Golang video course that he recently published on <a href="https://www.udemy.com/learn-how-to-code/learn/v4/content" target="_new">Udemy</a>. I bought access to the videos for a nominal fee and it was the best investment in programming-related material that I have ever made. Simply put, if you have prior computer programming experience there is no way that you couldn't become proficient with Go by the end of the course. While doing the course I had also come across Matt Aimonetti's e-book <a href="http://www.golangbootcamp.com/book" target="_new">Go Bootcamp</a> and noticed that Todd McLeod's course actually elaborated on many of those examples.
 
-If you are interested in learning Go and are looking for a tutorial that blends brevity with comprehensiveness then I suggest reading <a href="http://www.golangbootcamp.com/book" target="_new">Go Bootcamp</a>. If you need greater depth then look at <a href="https://www.udemy.com/learn-how-to-code/learn/v4/content" target="_new">Todd's video course on Udemy</a>. After tackling the language with these resources I actually found it better to create my own REST API without using a framework. Go is a powerful language that allows you to do just that without a lot of overhead. 
+If you are interested in learning Go and are looking for a tutorial that blends brevity with comprehensiveness then I suggest reading <a href="http://www.golangbootcamp.com/book" target="_new">Go Bootcamp</a>. If you need greater depth then look at <a href="https://www.udemy.com/learn-how-to-code/learn/v4/content" target="_new">Todd's video course on Udemy</a>. After tackling the language with these resources I actually found it better to create my own REST API without using a framework. Go is a powerful language that allows you to do just that without a lot of overhead.

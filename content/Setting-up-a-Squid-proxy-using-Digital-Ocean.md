@@ -1,7 +1,7 @@
 +++
-Categories = ["tech"]
+Categories = ["Tech"]
 Description = "Creating a personal Squid proxy"
-Tags =  ["squid", "proxy", "vps", "digital ocean"]
+Tags =  ["Squid", "Proxy", "VPS"]
 date = "2015-08-09T09:17:32-04:00"
 menu = "main"
 title = "Setting Up A Squid Proxy Using Digital Ocean"

@@ -1,7 +1,7 @@
 +++
-Categories = ["music"]
+Categories = ["Music"]
 Description = "Throwback Thursday: Eric B and Rakim - I Aint No Joke"
-Tags = ["music", "hip-hop", "throwback"]
+Tags = ["Hip-Hop", "Throwback", "Rakim"]
 date = "2016-04-07T08:19:33-04:00"
 menu = "main"
 title = "Throwback Thursday: Eric B and Rakim - I Aint No Joke"

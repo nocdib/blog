@@ -1,7 +1,7 @@
 +++
-Categories = ["music" ]
+Categories = ["Music" ]
 Description = "RIP Phife Dawg"
-Tags = ["music, hip-hop, throwback"]
+Tags = ["Hip-Hop, Throwback", "Phife Dawg"]
 date = "2016-03-24T19:40:08-04:00"
 menu = "main"
 title = "Throwback Thursday: A Tribe Called - Quest Award Tour"
