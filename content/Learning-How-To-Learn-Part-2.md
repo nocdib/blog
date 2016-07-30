@@ -1,5 +1,5 @@
 +++
-Categories = ["Tech", "Life"]
+Categories = ["Bits", "Life"]
 Description = ""
 Tags = ["Learning","Self-Improvement"]
 date = "2016-06-26T13:32:10-04:00"

@@ -1,5 +1,5 @@
 +++
-Categories = ["Tech"]
+Categories = ["Bits"]
 Description = "The start of my first major project"
 Tags = ["Development", "YB"]
 date = "2016-02-29T20:07:14-04:00"

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bits, Rhymes and Life</title>
-    <link>http://blog.nocdib.com/</link>
-    <description>Recent content on Bits, Rhymes and Life</description>
+    <title>Bits on Bits, Rhymes and Life</title>
+    <link>http://blog.nocdib.com/categories/bits/</link>
+    <description>Recent content in Bits on Bits, Rhymes and Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 Jul 2016 00:47:59 -0400</lastBuildDate>
-    <atom:link href="http://blog.nocdib.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.nocdib.com/categories/bits/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Making Mobile Moves</title>
@@ -65,58 +65,6 @@ If you want to do something well you have to be able to at least dedicate 20 hou
     </item>
     
     <item>
-      <title>The Tech Industry&#39;s Main Problem Isn&#39;t a Lack Of Talent.</title>
-      <link>http://blog.nocdib.com/the_tech_industrys_main_problem_/</link>
-      <pubDate>Wed, 18 May 2016 15:48:25 -0400</pubDate>
-      
-      <guid>http://blog.nocdib.com/the_tech_industrys_main_problem_/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s the inability to recognize talent when it&amp;rsquo;s sitting right before their eyes.&lt;/p&gt;
-
-&lt;p&gt;Over the last two months I&amp;rsquo;ve come across &lt;a href=&#34;https://medium.com/@evnowandforever/f-you-i-quit-hiring-is-broken-bb8f3a48d324#.4oguoz356&#34; target=&#34;_blank&#34;&gt;four&lt;/a&gt;
-&lt;a href=&#34;http://www.daedtech.com/hiring-is-broken/&#34; target=&#34;_blank&#34;&gt;different&lt;/a&gt;
-&lt;a href=&#34;http://bhilburn.org/hiring-is-hard/&#34; target=&#34;_blank&#34;&gt;blog&lt;/a&gt;
-&lt;a href=&#34;http://zachholman.com/posts/startup-interviewing-is-fucked/&#34; target=&#34;_blank&#34;&gt;posts&lt;/a&gt;
-highlighting this very issue and I&amp;rsquo;ve also experienced it personally. American employment statistics claim that there is a shortage of qualified talent to fill all of the open tech jobs and forecasts predict that
-&lt;a href=&#34;http://www.bls.gov/opub/mlr/2015/article/stem-crisis-or-stem-surplus-yes-and-yes.htm&#34; target=&#34;_blank&#34;&gt; in the next decade a million more STEM workers will be needed than will be availble&lt;/a&gt;. Assertions like that would lead one to believe that information technology professionals, especially of the software development variety, would be highly coveted and couldn&amp;rsquo;t possibly be subjected to lengthy job hunts in a market where the demand far exceeds the supply. Actually, the opposite is true. Talented developers with proven credentials are being rejected for job positions that they are clearly qualified for and the reasons for it are ridiculous.&lt;/p&gt;
-
-&lt;p&gt;Software engineering interviews usually follow the same pattern. First, the candidate is given a phone/Skype interview to evaluate their background relative to the job description. This interview may or may not include a coding question where the candidate has to write code to solve a given problem. This technical part of the interview is sometimes given as a separate assignment to be completed before a certain time or in a follow-up technical interview session. If the candidate passes the first stage(s) the next step is an in-person interview at the job site where various members of the team evaluate the candidate, oftentimes with a mix of technical theory questions and more specific coding problems to be solved by hand. After this stage, which can last anywhere from two hours to an entire business day, the candidate is either accepted immediately or sent home to await a decision soon after. Interviews are time-intensive, even outside of the office, because they require position-specific preparation and the candidate may have more than one interview to prepare for. I had been actively in the consideration process with four jobs and three of them were in the final stages. Job 1 was for a San Francisco based, Y-Combinator alumnus startup in the social welfare sector. This was a remote position that would have allowed me to work from anywhere with two mandatory on-site visits to be made to the company office annually. Job 2 was with the digital media division of a global auditing firm which would have been full-time, onsite in New York City. The third was a full-time, onsite role at a major news provider.&lt;/p&gt;
-
-&lt;p&gt;Job 1 was one that I had applied to via the StackOverflow Careers portal while the other two were recruiter referrals. With the first job the interview process had lasted for six weeks and consisted of Skype interviews with the three team members I would be working with, two business operations people and finally the co-founder. The co-founder was the final interview however she had missed the original interview time and was substituted with an operations person. I passed the technical portion and the two operations people felt that I was a strong candidate. One of them had even started discussing the initial steps of the onboarding process with me and assured me that my final interview with the co-founder was just a formality. After her seemingly guaranteed approval I would go to the head office to complete the hiring process and begin working. After the final interview I had made arrangements to fly home to the NYC area from Sweden the following week in preparation to go to San Francisco and join the company. Since I would already be in the area of the other two positions I scheduled my interviews with them to take place that same week.&lt;/p&gt;
-
-&lt;p&gt;Job 2 found me through their internal recruiter, had one phone screen with me and then scheduled me for a final interview at their New York office two weeks later. They were trying to start a new division in this office and I would have been the first hire. The understanding was that as the team grew my seniority would have me be the first one considered for leadership roles. The entire interview process had been curated by one of the corporate directors who happened to be in town from Denver, Colorado at the same time that I was interviewing. Two days before the interview I was sent the names of the people I would be meeting with and the timetable of the process. When I arrived I was told that two of the three people could not make it so they would be replaced by two other people. The first person appeared to have only seen my resume for the first time during the interview. He asked me about my most recent role, which happened to be listed on the first page of my resume, before asking me some general team leadership questions. He clearly had not looked at the second page of resume because had he done so he would have seen specific items related to my past team leadership experiences. During the interview I found out that he had only been with the firm for three months. The second interviewer, who also seemed to have only seen my resume upon meeting me, had only been on the job for two weeks. None of the questions she asked me pertained to leadership and it was clear that she was unexpectedly pulled in as a substitute because she was at a loss for words. I tried filling in the awkward silence by asking her questions about her work experience with the company. The third interviewer was the only one of the original people slated to interview me and she at least seemed to have seen my resume more than five minutes before talking to me. Her questions were more philosophical but she never once spoke about my leadership qualities, interests or experience. Despite the inconsistent process I took everything in stride and felt that I had adequately demonstrated my qualifications for the position. The office space had a phenomenal view and I thought I would certainly choose to work there over the other two positions.&lt;/p&gt;
-
-&lt;p&gt;Job 3 had given me one technical Skype screening less than 18 hours after I had arrived in New York. Less than six hours later they asked for me to come into the office for a final interview in two days. I was given a list of suggested study material and two days after the six-person, three-and-a-half-hour interview session they made me an employment offer. The total time needed from their initial interest in me and their final offer: seven days. After getting the offer I contacted Job 1, which hadn&amp;rsquo;t gotten back to me after six weeks of interviewing and one week after the final evaluation, only to be told that the co-founder hadn&amp;rsquo;t given me the approval to be hired. This meant that the co-founder, who had no technical experience, overlooked the technical team&amp;rsquo;s and two other business member&amp;rsquo;s decisions to move forward with me for some unknown reason. Not only did she not accept me but the company was inconsiderate in not telling me her decision until after I had asked them about it. The operations person was surprised by her decision and said that he would talk to her about it. He offered to stay in touch with me but I didn&amp;rsquo;t accept his request for a LinkedIn connection. Earlier in the day, before I had gotten Job 3&amp;rsquo;s offer, Job 2 contacted me to say that they would not be moving forward with me because two of the three interviewers thought I would be too technical to effectively lead a technical team (as if that makes any sense). They had assumed that my desire to write code negated my desire to manage a team without ever asking me about it directly. The director seemed disappointed and said that he would like to contact me later when they are looking to hire staff members but I have no interest in ever dealing with them again.&lt;/p&gt;
-
-&lt;p&gt;For me, interview process was bilateral because I was also doing my own evaluations. If a company posts an open position and the interview process does not reflect that they know what they want in a candidate then have no desire to work with that company. If there is an unduly lengthy hiring process then I also see that as them being unsure of what they want. During the interview process the greater onus is put on the person being interviewed since they have to prepare for the unknown. The interviewers (should) know beforehand what they expect for the role and they have the candidate&amp;rsquo;s credentials listed in front of them. There is no curveball for them to prepare for since they set the challenge that the candidate must face. It is outright disrespectful to have someone prepare for an interview at your company only for you to not fairly evaluate them due to haphazard planning and unclearly defined parameters. My advice to tech companies that are screening new hires would be to:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Set clear expectations for the nature of the role you are hiring for.
-  &lt;li&gt;Understand which skills are necessary prerequisites and which are nice to have but could otherwise be learned on the job.
-  &lt;li&gt;Read through the candidate&#39;s resume and cover letter to ensure that their experience aligns with your expectations.
-  &lt;li&gt;Make sure that everyone involved in the process understands what the role requires and what the candidate&#39;s experience offers.
-  &lt;li&gt;Keep the coding questions relevant to the types of problems that would be encountered on the job. Evaluate the approach with more weight than the finished solution, especially if it is not done in a format that can be executed to ensure correctness (e.g. on a whiteboard).
-  &lt;li&gt;Make your decisions promptly and keep the candidate informed. There is no sense in wasting their time or yours. Each team member should be largely sure of where they stand on the candidate directly after the interview so a democratic vote among the team and a response should take no more than two days at the absolute maximum.
-  &lt;li&gt;If you are not going to move forward with the candidate then it would be nice to provide a reason as to why. If company policy does not allow discussing it then politely inform them as soon as possible that the process has ended.
-  &lt;li&gt;Do not make any preliminary mention of an offer until all stakeholders are in agreement that they will be proceeding with the hiring process.
-&lt;/ul&gt;
-
-&lt;p&gt;Needless to say, I accepted the position with &lt;a href=&#34;http://www.nytimes.com/&#34;&gt;The New York Times&lt;/a&gt;. The interviews were challenging and I came out of the final one thinking that I had a 50% chance of being accepted but I ended up being unanimously voted onboard. They pursued me with vigor so I reciprocated. I will be starting on Tuesday, May 31 and I&amp;rsquo;m excited to be working on a world-class tech team for a world-renown news source.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Throwback Thursday: Cypress Hill - Insane in the Membrane</title>
-      <link>http://blog.nocdib.com/Throwback-Thursday-Cypress-Hill-Insane-In-The-Membrane/</link>
-      <pubDate>Thu, 05 May 2016 02:33:49 -0400</pubDate>
-      
-      <guid>http://blog.nocdib.com/Throwback-Thursday-Cypress-Hill-Insane-In-The-Membrane/</guid>
-      <description>&lt;p&gt;&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/RijB8wnJCN0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;br/&gt;
-In observance of Cinco de Mayo (Mexican Independence Day) I&amp;rsquo;ll walk down memory lane with the Cypress Hill. Truth be told B-Real is half-Mexican, Sen Dog is Cuban and DJ Muggs is Italian-American but still. The &amp;ldquo;Black Sunday&amp;rdquo; album was one of the first cassette tapes I had ever bought. &amp;ldquo;Insane in the Membrane&amp;rdquo; was the lead single which ended up becoming a hit nationwide. I&amp;rsquo;d say it is still one of the defining Hip-Hop tracks of the 90&amp;rsquo;s among the likes of &amp;ldquo;Baby Got Back&amp;rdquo; by Sir-Mix-A-Lot and &amp;ldquo;Jump Around&amp;rdquo; by House of Pain. &amp;ldquo;I Ain&amp;rsquo;t Going Out Like That&amp;rdquo; was a hard-hitting follow-up track along the lines of &amp;ldquo;Deep Cover.&amp;rdquo; With two strong lead singles Black Sunday definitely made Cypress Hill known on the East Coast but their several subsequent albums never had the same appeal or radio attention. Honestly, I can&amp;rsquo;t say that I have heard Cypress Hill on East Coast radio since Black Sunday. The tracks that I like which came afterwards are ones that I saw music videos for: &amp;ldquo;Tequila Sunrise&amp;rdquo; and &amp;ldquo;Rap Superstar.&amp;rdquo; Maybe in this era of streaming music I should take the time to catch up on their discography. I&amp;rsquo;ll put that on my to-do list for next week.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>If You Use Vagrant Then You Should Give Otto a Try</title>
       <link>http://blog.nocdib.com/If-you-use-Vagrant-then-you-should-be-using-Otto/</link>
       <pubDate>Mon, 25 Apr 2016 06:13:52 -0400</pubDate>
@@ -155,20 +103,6 @@ Choosing resources that compliment your style of learning is crucial. Not everyt
     </item>
     
     <item>
-      <title>Throwback Thursday: Eric B and Rakim - I Aint No Joke</title>
-      <link>http://blog.nocdib.com/Throwback-Thursday-Eric-B-and-Rakim-I-Aint-No-Joke/</link>
-      <pubDate>Thu, 07 Apr 2016 08:19:33 -0400</pubDate>
-      
-      <guid>http://blog.nocdib.com/Throwback-Thursday-Eric-B-and-Rakim-I-Aint-No-Joke/</guid>
-      <description>&lt;p&gt;&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/2TN-kDEKxF0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;br/&gt;
-&lt;br/&gt;
-If you ask a group of true hip-hop fans who the top 5 greatest lyricists of all time are you&amp;rsquo;d likely hear the name Rakim mentioned at least 70% of the time. Your favorite rapper (over the age of 30) probably has him in the top 3. His whole persona embodied the essence of what I remembered 80&amp;rsquo;s New York City hip-hop being but I didn&amp;rsquo;t catch onto him until his first solo album was released in 1997. Prior to that he was part of the eponymous DJ/MC duo Eric B and Rakim but their career spanned from 1987 to 1992, or from when I was between ages 5 and 10. As a kid, the only people around my age who knew of their music learned of them through an older sibling so I didn&amp;rsquo;t acknowledge them until I had gotten much older.&lt;br/&gt;
-&lt;br/&gt;
-I can&amp;rsquo;t recall when exactly was the first time I had heard &amp;ldquo;I Ain&amp;rsquo;t No Joke&amp;rdquo; but I know it was the bass drum and clap pattern that caught me first and then Rakim&amp;rsquo;s braggadocious lyrics. The music video also captured the zeitgeist of NYC at the time with the flat-top haircuts, Fila windbreakers, gold rope chains, rings on all fingers, graffiti murals, etc. If I had to pick one definitive track for hip-hop in the late 80&amp;rsquo;s it would be this one for it&amp;rsquo;s versatility as a party-rocker, a lyrical showcase and a DJ showcase. It&amp;rsquo;s crazy how it&amp;rsquo;s almost 30 years old.&lt;br/&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>The Best Golang Tutorial Around</title>
       <link>http://blog.nocdib.com/The-best-golang-tutorial-around/</link>
       <pubDate>Fri, 25 Mar 2016 13:21:51 -0400</pubDate>
@@ -183,39 +117,6 @@ I can&amp;rsquo;t recall when exactly was the first time I had heard &amp;ldquo;
 &lt;p&gt;My first step was to learn Go. I&amp;rsquo;m pretty particular with my learning materials and I&amp;rsquo;m just not the type who becomes proficient from online documentation and web searches alone. Finding the right introductory material wasn&amp;rsquo;t easy since there was a dearth of tutorials and well-written, published books on Go. I had found one e-book, whose name I will not mention, but I found its explanation and the progression of material to be deficient. By chance I had stumbled upon one of &lt;a href=&#34;https://www.youtube.com/user/toddmcleod&#34; target=&#34;_new&#34;&gt;Todd Mcleod&amp;rsquo;s&lt;/a&gt; YouTube videos and left a comment. He quickly responded and suggested that I take a look at a new Golang video course that he recently published on &lt;a href=&#34;https://www.udemy.com/learn-how-to-code/learn/v4/content&#34; target=&#34;_new&#34;&gt;Udemy&lt;/a&gt;. I bought access to the videos for a nominal fee and it was the best investment in programming-related material that I have ever made. Simply put, if you have prior computer programming experience there is no way that you couldn&amp;rsquo;t become proficient with Go by the end of the course. While doing the course I had also come across Matt Aimonetti&amp;rsquo;s e-book &lt;a href=&#34;http://www.golangbootcamp.com/book&#34; target=&#34;_new&#34;&gt;Go Bootcamp&lt;/a&gt; and noticed that Todd McLeod&amp;rsquo;s course actually elaborated on many of those examples.&lt;/p&gt;
 
 &lt;p&gt;If you are interested in learning Go and are looking for a tutorial that blends brevity with comprehensiveness then I suggest reading &lt;a href=&#34;http://www.golangbootcamp.com/book&#34; target=&#34;_new&#34;&gt;Go Bootcamp&lt;/a&gt;. If you need greater depth then look at &lt;a href=&#34;https://www.udemy.com/learn-how-to-code/learn/v4/content&#34; target=&#34;_new&#34;&gt;Todd&amp;rsquo;s video course on Udemy&lt;/a&gt;. After tackling the language with these resources I actually found it better to create my own REST API without using a framework. Go is a powerful language that allows you to do just that without a lot of overhead.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Throwback Thursday: A Tribe Called - Quest Award Tour</title>
-      <link>http://blog.nocdib.com/Throwback-Thursday-A-Tribe-Called-Quest-Award-Tour/</link>
-      <pubDate>Thu, 24 Mar 2016 19:40:08 -0400</pubDate>
-      
-      <guid>http://blog.nocdib.com/Throwback-Thursday-A-Tribe-Called-Quest-Award-Tour/</guid>
-      <description>&lt;p&gt;&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/P800UWoE9xs&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;br/&gt;&lt;/p&gt;
-
-&lt;p&gt;1993 was an interesting year for me musically because I was 11 and it had been about a year since I started taking a personal interest in music. At the end of the prior year Dr. Dre released his classic album The Chronic. Mid-1993 saw Tupac emerge as a bonafide solo artist with &amp;ldquo;I Get A Round&amp;rdquo; and Cypress Hill dropped their classic &amp;ldquo;Insane in the Membrane&amp;rdquo; around the same time. Growing up in New Jersey and gravitating towards West Coast rap while being completely oblivious to the East Coast fixtures seems odd in retrospect but at the time I knew nothing about anything else. November of 1993 had another West Coast classic, Snoop Doggy Dogg&amp;rsquo;s Doggystyle, take the music world by storm but earlier that month A Tribe Called Quest released Midnight Marauders.&lt;/p&gt;
-
-&lt;p&gt;The day that Midnight Marauders was released, November 9, 1993, was also the day that the Wu Tang Clan released their debut album which captivated me and took the NYC area radio stations by storm. Still, A Tribe Called Quest&amp;rsquo;s lead single &amp;ldquo;Award Tour&amp;rdquo; managed to get some consistent radio play and it was my introduction to the group. The follow-up single &amp;ldquo;Electric Relaxation&amp;rdquo; was sonically pleasing but my hip-hop tastes were in another direction and A Tribe Called Quest became a musical afterthought to me. I recognized their merit but I was never truly a fan. Me being from the East Coast and admitting this is blasphemy to some people but it&amp;rsquo;s the truth.&lt;/p&gt;
-
-&lt;p&gt;Only recently have I gained an interest in listening to earlier music from A Tribe Called Quest and fellow Native Tongues members Leaders of the New School and De La Soul. Sadly, yesterday, I heard that group member Phife Dawg had passed away. I had known for years that he had kidney issues and I&amp;rsquo;m sorry to hear that he succumbed to his ailment. While being soberly reminded about the frailty of our mortal existence I&amp;rsquo;ll use this news as motivation to listen to their entire discography in chronological order. Maybe my more mature listening ear will finally be able to recognize what so many hip-hop fans have already recognized decades ago.&lt;/p&gt;
-
-&lt;p&gt;R.I.P Malik &amp;ldquo;Phife Dawg&amp;rdquo; Taylor&lt;br/&gt;
-November 20, 1970 – March 22, 2016&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Throwback Thursday: Lin Que - Let it Fall</title>
-      <link>http://blog.nocdib.com/Throwback-Thursday-Lin-Que-Let-it-fall/</link>
-      <pubDate>Thu, 17 Mar 2016 06:14:38 -0400</pubDate>
-      
-      <guid>http://blog.nocdib.com/Throwback-Thursday-Lin-Que-Let-it-fall/</guid>
-      <description>&lt;p&gt;Thanks to YouTube&amp;rsquo;s autoplay feature this mid-90&amp;rsquo;s gem started playing. In a day where Nicki Minaj is the queen of NYC rap it&amp;rsquo;s nice to take a trip down memory lane to 21 years ago when female emcees were as gritty as the guys. Lin Que was cut from the same cloth as Champ MC, Boss, Nonchalant and Fugees-era Lauryn Hill.&lt;/p&gt;
-
-&lt;p&gt;Interestingly enough, Hype Williams co-directed the video and he is the father of the 90&amp;rsquo;s Hip Hop music video directors. This video shows his signature use of fades between shots but while he&amp;rsquo;s known for his use of vivid color he went for black-an-white this time. Under Sylvia Rhone&amp;rsquo;s guidance Elektra Records was responsible for a number of female acts in 90&amp;rsquo;s urban music. Lin Que wasn&amp;rsquo;t as commercially successful as labelmates like Missy Elliot but she defnitely represented lyrically.&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/rWF5owcnCrY&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
     </item>
     

@@ -1,5 +1,5 @@
 +++
-Categories = ["Tech"]
+Categories = ["Bits"]
 Description = ""
 Tags = ["Development", "Golang"]
 date = "2016-03-25T13:21:51-04:00"

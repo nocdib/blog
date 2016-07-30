@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>New York Times on Bits, Rhymes and Life</title>
+    <link>http://blog.nocdib.com/tags/new-york-times/</link>
+    <description>Recent content in New York Times on Bits, Rhymes and Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Jul 2016 00:47:59 -0400</lastBuildDate>
+    <atom:link href="http://blog.nocdib.com/tags/new-york-times/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Making Mobile Moves</title>
+      <link>http://blog.nocdib.com/Making_Mobile_Moves/</link>
+      <pubDate>Tue, 26 Jul 2016 00:47:59 -0400</pubDate>
+      
+      <guid>http://blog.nocdib.com/Making_Mobile_Moves/</guid>
+      <description>&lt;p&gt;Two months ago I started a new job in the Technology division of &lt;a href=&#34;http://www.nytimes.com&#34; target=&#34;_blank&#34;&gt;The New York Times&lt;/a&gt; and I guess I couldn&amp;rsquo;t have started at a better time. Two weeks ago we had Maker&amp;rsquo;s Week, a week-long company &lt;a href=&#34;https://en.wikipedia.org/wiki/Hackathon&#34; target=&#34;_blank&#34;&gt;hackathon&lt;/a&gt; where people from the Technology, Design, and Product divisions pitched ideas and worked on projects to be presented at the end of the week. I was part of a three-person group led by a product manager on the Search Team who proposed a mobile app that could take a picture of a Times headline and direct the user to the digital version of the article. The idea was born from her experience commuting to NYC on the &lt;a href=&#34;http://www.mta.info/mnr&#34; target=&#34;_blank&#34;&gt;Metro-North&lt;/a&gt; train where she noticed newspaper readers taking pictures of article headlines, presumably to share them or to save them for later. I thought it was a good idea to do a quick proof-of-concept in Android with and we were fortunate enough to have an eager intern with lots of free time and some Android programming experience to join the team.&lt;/p&gt;
+
+&lt;p&gt;Our team formed on a Monday and we were set to present on Friday afternoon so time was of the essence for me plus I had other job obligations. The intern was an integral part of the team and really took control of the development while I played a supplemental role. For the technology we used an open source optical character recognition (OCR) library called &lt;a href=&#34;https://github.com/rmtheis/tess-two&#34; target=&#34;_blank&#34;&gt;Tesseract&lt;/a&gt; to read the characters from the words in the image and sent that text to an internal search API which would then return the results in order of relevance. Our goal was to identify the most timely article so we just returned the first result or notified the user that no results were returned.&lt;/p&gt;
+
+&lt;p&gt;The outcome of our collective effort was successful. Accurate results were returned at a rate of 80% or greater. People were impressed at our presentation and today I had the opportunity to demonstrate the app to higher-ups in the company who are in positions to put the idea in the development pipeline for the flagship Android mobile app. Needless to say I am excited but with the intern soon to return to &lt;a href=&#34;http://www.stanford.edu/&#34; target=&#34;_blank&#34;&gt;Stanford University&lt;/a&gt; I will be the only technical point of contact in the office for the project. This means that I have to become very proficient with Android development rather quickly.&lt;/p&gt;
+
+&lt;p&gt;Google has &lt;a href=&#34;https://www.udacity.com/course/android-development-for-beginners--ud837&#34; target=&#34;_blank&#34;&gt;some&lt;/a&gt; &lt;a href=&#34;https://www.udacity.com/course/developing-android-apps--ud853&#34; target=&#34;_blank&#34;&gt;free&lt;/a&gt; &lt;a href=&#34;https://www.udacity.com/course/advanced-android-app-development--ud855&#34; target=&#34;_blank&#34;&gt;videos&lt;/a&gt; via Udacity that I found helpful at the beginner level so I&amp;rsquo;ll continue with them for advanced concepts. Once I&amp;rsquo;m done with those I&amp;rsquo;ll probably begin pursuing the &lt;a href=&#34;https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801&#34; target=&#34;_blank&#34;&gt;Nanodegree in Android Development&lt;/a&gt;. For now, I cannot divulge more information about the technical aspects of the project since it may soon become company property but I think I will make a general blog post about OCR recognition on Android using Tesseract in the near future.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

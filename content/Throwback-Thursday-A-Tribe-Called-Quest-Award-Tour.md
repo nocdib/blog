@@ -1,5 +1,5 @@
 +++
-Categories = ["Music" ]
+Categories = ["Rhymes" ]
 Description = "RIP Phife Dawg"
 Tags = ["Hip-Hop, Throwback", "Phife Dawg"]
 date = "2016-03-24T19:40:08-04:00"

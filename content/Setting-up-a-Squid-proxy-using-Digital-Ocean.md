@@ -1,5 +1,5 @@
 +++
-Categories = ["Tech"]
+Categories = ["Bits"]
 Description = "Creating a personal Squid proxy"
 Tags =  ["Squid", "Proxy", "VPS"]
 date = "2015-08-09T09:17:32-04:00"

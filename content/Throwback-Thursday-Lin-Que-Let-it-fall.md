@@ -1,5 +1,5 @@
 +++
-Categories = ["Music"]
+Categories = ["Rhymes"]
 Description = "Throwback Thursday: Lin Que - Let it Fall"
 Tags = ["Hip-Hop","Throwback"]
 date = "2016-03-17T06:14:38-04:00"

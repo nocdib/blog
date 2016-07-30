@@ -1,5 +1,5 @@
 +++
-Categories = ["Music"]
+Categories = ["Rhymes"]
 Description = "Throwback Thursday: Cypress Hill - Insane in the Membrane"
 Tags = ["Hip-Hop", "Throwback", "Cypress Hill"]
 date = "2016-05-05T02:33:49-04:00"
