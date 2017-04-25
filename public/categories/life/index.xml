@@ -2,12 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Life on Bits, Rhymes and Life</title>
-    <link>http://blog.nocdib.com/categories/life/</link>
+    <link>http://blog.nocdib.com/categories/life/index.xml</link>
     <description>Recent content in Life on Bits, Rhymes and Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Nov 2016 21:53:01 -0500</lastBuildDate>
     <atom:link href="http://blog.nocdib.com/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Reconstruction in Progress</title>
+      <link>http://blog.nocdib.com/Reconstruction-in-Progress/</link>
+      <pubDate>Thu, 20 Apr 2017 15:21:26 -0400</pubDate>
+      
+      <guid>http://blog.nocdib.com/Reconstruction-in-Progress/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s time to start over, but not from scratch.&lt;/p&gt;
+
+&lt;p&gt;In 2009 I wrote &lt;a href=&#34;https://nocdib.wordpress.com/2009/08/12/in-the-beginning/&#34;&gt;a blog post&lt;/a&gt; as a test for using WordPress but I had also hoped that it would get the ball rolling for me to pursue a personal mobile development project which would provide me with material to start regularly blogging about. In short, it never happened. Years later, &lt;a href=&#34;http://blog.nocdib.com/Setting-up-a-Squid-proxy-using-Digital-Ocean/&#34;&gt;I tried again&lt;/a&gt; but still failed to be consistent with tech blogging. Last year, &lt;a href=&#34;http://blog.nocdib.com/A-journey-of-a-thousand-miles-begins-with-a-leap/&#34;&gt;I started blogging for a third time&lt;/a&gt; but, while I did manage to post more frequently than the previous two times, I failed to be as consistent as I had wanted to be and I was still light on the technical posts. So, today, I have decided to change my approach.&lt;/p&gt;
+
+&lt;p&gt;I named this blog &amp;ldquo;Bits, Rhymes, and Life&amp;rdquo; because I wanted to chronicle elements of my life in addition to topics on programming. In the last year I&amp;rsquo;ve done and experienced quite a few things that are worth posting about but, for some reason, I didn&amp;rsquo;t. In the process of reading Jordan Mechner&amp;rsquo;s &amp;ldquo;&lt;a href=&#34;https://www.amazon.com/Making-Prince-Persia-Jordan-Mechner-ebook/dp/B005WUE6Q2&#34;&gt;The Making of Prince of Persia: Journals 1985 - 1993&lt;/a&gt;&amp;rdquo; which chronicles his creation of the classic computer game &lt;i&gt;Prince of Persia&lt;/i&gt; I noticed that although his entries were sometimes weeks, even months, apart he wasn&amp;rsquo;t afraid to write about even his uneventful days. Years later, his journal portrays him as being a person who wrote computer software rather than just a computer programmer. That&amp;rsquo;s the same effect I would like to achieve with blogging&amp;ndash;having a tangible journal that recounts both my technical achievements and personal experiences that are worth remembering.&lt;/p&gt;
+
+&lt;p&gt;To make this blog align with my newfound goal I&amp;rsquo;ve decided to reconstruct it in two phases. The first step is to make at least 30 posts in the next three months. At a target rate of one post every three days I should be able to make mostly non-trivial posts regularly. If I am making trivial posts regularly then that&amp;rsquo;s a sign that I should be more productive with my time. Hopefully, this will become a habit that I will do without needing to set explicit benchmarks. In addition to that I want to include more images into my posts. The second step is to redesign my entire site, including the blog. The redesign is a goal I had since late last year but a combination of lethargy and indecisiveness kept it from happening. I&amp;rsquo;m close to deciding on a theme, layout, etc. and it will most likely be built with &lt;a href=&#34;https://wordpress.com/&#34;&gt;WordPress&lt;/a&gt;, a departure from the current &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; platform. In the interim I will continue to blog in Hugo but in three months time I hope to have everything settled under WordPress with all previous posts migrated.&lt;/p&gt;
+
+&lt;p&gt;So, starting from today, this blog will look more like a personal journal rather than a blog. Maybe it won&amp;rsquo;t look like what I have in mind, initially, but if I keep at it things will take shape.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Countdown To My Mid-Thirties</title>

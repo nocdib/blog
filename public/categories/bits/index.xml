@@ -2,11 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bits on Bits, Rhymes and Life</title>
-    <link>http://blog.nocdib.com/categories/bits/</link>
+    <link>http://blog.nocdib.com/categories/bits/index.xml</link>
     <description>Recent content in Bits on Bits, Rhymes and Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Jul 2016 00:47:59 -0400</lastBuildDate>
     <atom:link href="http://blog.nocdib.com/categories/bits/index.xml" rel="self" type="application/rss+xml" />
     
     <item>

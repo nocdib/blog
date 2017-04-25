@@ -2,11 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Employment on Bits, Rhymes and Life</title>
-    <link>http://blog.nocdib.com/tags/employment/</link>
+    <link>http://blog.nocdib.com/tags/employment/index.xml</link>
     <description>Recent content in Employment on Bits, Rhymes and Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 May 2016 15:48:25 -0400</lastBuildDate>
     <atom:link href="http://blog.nocdib.com/tags/employment/index.xml" rel="self" type="application/rss+xml" />
     
     <item>

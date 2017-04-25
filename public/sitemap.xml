@@ -2,9 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.nocdib.com/</loc>
-    <lastmod>2017-02-07T07:32:18-05:00</lastmod>
-    <priority>0</priority>
+    <loc>http://blog.nocdib.com/Reconstruction-in-Progress/</loc>
+    <lastmod>2017-04-20T15:21:26-04:00</lastmod>
   </url>
   
   <url>
@@ -80,6 +79,190 @@
   <url>
     <loc>http://blog.nocdib.com/Setting-up-a-Squid-proxy-using-Digital-Ocean/</loc>
     <lastmod>2015-08-09T09:17:32-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/android/</loc>
+    <lastmod>2016-07-26T00:47:59-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/categories/bits/</loc>
+    <lastmod>2016-07-26T00:47:59-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/</loc>
+    <lastmod>2017-04-20T15:21:26-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/blogging/</loc>
+    <lastmod>2017-04-20T15:21:26-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/cypress-hill/</loc>
+    <lastmod>2016-05-05T02:33:49-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/development/</loc>
+    <lastmod>2016-08-18T22:27:47-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/categories/development/</loc>
+    <lastmod>2017-02-07T07:32:18-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/employment/</loc>
+    <lastmod>2016-05-18T15:48:25-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/golang/</loc>
+    <lastmod>2016-08-18T22:27:47-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/categories/golang/</loc>
+    <lastmod>2017-02-07T07:32:18-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/hip-hop/</loc>
+    <lastmod>2016-05-05T02:33:49-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/hip-hop-throwback/</loc>
+    <lastmod>2016-03-24T19:40:08-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/hiring/</loc>
+    <lastmod>2016-05-18T15:48:25-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/learning/</loc>
+    <lastmod>2016-06-26T13:32:10-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/life/</loc>
+    <lastmod>2017-02-07T07:32:18-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/categories/life/</loc>
+    <lastmod>2017-04-20T15:21:26-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/new-york-times/</loc>
+    <lastmod>2016-07-26T00:47:59-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/personal/</loc>
+    <lastmod>2016-11-22T21:53:01-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/phife-dawg/</loc>
+    <lastmod>2016-03-24T19:40:08-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/proxy/</loc>
+    <lastmod>2015-08-09T09:17:32-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/rakim/</loc>
+    <lastmod>2016-04-07T08:19:33-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/categories/rhymes/</loc>
+    <lastmod>2016-08-18T22:27:47-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/self-improvement/</loc>
+    <lastmod>2016-06-26T13:32:10-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/squid/</loc>
+    <lastmod>2015-08-09T09:17:32-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/tech/</loc>
+    <lastmod>2016-05-18T15:48:25-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/categories/tech/</loc>
+    <lastmod>2016-05-18T15:48:25-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/throwback/</loc>
+    <lastmod>2016-05-05T02:33:49-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/vps/</loc>
+    <lastmod>2015-08-09T09:17:32-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.nocdib.com/tags/yb/</loc>
+    <lastmod>2016-02-29T20:07:14-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
